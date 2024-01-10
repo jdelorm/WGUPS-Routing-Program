@@ -21,13 +21,13 @@ class Package:
     def update_status(self, user_input_time):
         if self.delivery_time <= user_input_time:
             # print(self.departure_time) - used for testing
-            self.status = "Package Delivered"
+            self.status = "Package Delivered - Current Time: " + str(user_input_time)
             self.delivery_time = "Delivered at " + str(self.delivery_time)
         elif self.departure_time < user_input_time:
             # print(self.departure_time) - used for testing
-            self.status = "Package is Out for Delivery"
+            self.status = "Package is Out for Delivery - Current Time: " + str(user_input_time)
             self.delivery_time = "Package will be delivered at " + str(self.delivery_time)
         else:
             # print(self.departure_time) - used for testing
-            self.status = "At Local Hub - Preparing for Delivery"
+            self.status = "At Local Hub - Preparing for Delivery - Current Time: " + str(user_input_time)
             self.delivery_time = "Package will be delivered at " + str(self.delivery_time)
