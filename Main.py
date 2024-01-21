@@ -89,7 +89,7 @@ read_package("wgups_csv/packages_csv", package_hash_table)
 
 
 # Method used to calculate the minimal travel distance using a greedy algorithm
-# The method also calculates delivery times and distance traveled for each truck object
+# This method also calculates delivery times and distance traveled for each truck object
 # Searching runtime in the method would be O(n)
 # Removing runtime in the method would be O(n)
 # Iterating runtime of the loop would be O(n)
