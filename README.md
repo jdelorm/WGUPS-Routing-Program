@@ -1,29 +1,24 @@
-WGUPS Routing Program
+Title: WGUPS Routing Program
 
-The WGUPS Routing Program is a Python-based simulation that calculates optimal delivery routes for a fleet of trucks in a package delivery system. 
-The program addresses the Traveling Salesman Problem (TSP) by employing a greedy algorithm to determine the most efficient route for each truck, minimizing the total distance traveled during deliveries.
+Purpose: To simulate and optimize package delivery concerning the traveling salesman problem. This program loads package, address, and distance data, calculates optimal delivery routes using a greedy algorithm, and allows users to query the status of packages at any given time.
 
-The program reads data from CSV files containing package details, distances between addresses, and addresses themselves. It then computes delivery routes for each truck, ensuring packages are delivered on time and tracking the total distance traveled by each truck.
+Author: John DeLorme
 
-Greedy Routing Algorithm: Optimizes truck routes based on a minimal travel distance approach.
+Contact: jdelorm@wgu.edu
 
-Package Tracking: Tracks the status of packages and provides delivery status at any given time.
+Version: 1.2
 
-Multiple Trucks: Simulates the use of three trucks, each handling different sets of packages.
+Date: 1/22/2024
 
-Interactive User Interface: Allows users to input a time and query the status of a specific package or all packages.
+IDE: PyCharm Community Edition 2024.2
 
+Python: 3.10+
 
-Python 3.x
+How to get program to run: 
 
-Custom Classes:
-
-Truck – Handles truck attributes and methods.
-
-Package – Represents a package and its delivery status.
-
-HashTable – Provides efficient storage and retrieval of packages.
-
-CSV Files: Used for storing package and address data.
-
-Datetime: For managing delivery times and statuses.
+  1. Install latest edition of PyCharm Community
+  2. Go to "Get from VCS" on the welcome screen
+  3. Paste this URL: https://github.com/jdelorm/WGUPS-Routing-Program
+  4. Choose where to save the project and click "Clone"
+  5. Once the project loads, find Main.py and open it.
+  6. Click "RUN" or green arrow in IDE and follow instructions in console
