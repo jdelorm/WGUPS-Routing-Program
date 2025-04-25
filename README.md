@@ -2,9 +2,9 @@ Title: WGUPS Routing Program
 
 Purpose: To simulate and optimize package delivery concerning the traveling salesman problem. This program loads package, address, and distance data, calculates optimal delivery routes using a greedy algorithm, and allows users to query the status of packages at any given time.
 
-Author: John DeLorme
+Author: jdelorm
 
-Contact: jdelorm@wgu.edu
+Contact: jdelorm@bot.com
 
 Version: 1.2
 
